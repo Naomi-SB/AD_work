@@ -56,8 +56,7 @@ def wrangle_curriculum_data():
     
     return df
     
-  
- def find_anomalies(df, user, span, weight, plot=False):
+def find_anomalies(df, user, span, weight, plot=False):
     '''
     THIS IS NOT NAOMI'S
     This function returns the records where a user's daily activity exceeded the upper limit of a bollinger band range
@@ -89,3 +88,17 @@ def plot_bands(my_df, user):
     ax.legend(loc='best')
     ax.set_ylabel('Number of Pages')
     plt.show()
+
+################################################################### DATA FRAMES FOR VISUALIZATION    
+
+
+
+
+
+
+
+
+
+
+
+
