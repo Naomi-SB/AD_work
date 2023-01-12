@@ -52,7 +52,7 @@ def wrangle_curriculum_data():
     
     # dropping nulls and unnecessary columns
     df.fillna('none', inplace = True)
-    df.drop(['date', 'deleted_at', 'program_id', 'path'], axis = 1, inplace = True)
+    df.drop(['deleted_at', 'program_id', 'path'], axis = 1, inplace = True)
     
     return df
     
